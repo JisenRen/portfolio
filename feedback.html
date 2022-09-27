@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jisen Ren</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/review.js"></script>
+</head>
+<body>
+<header>
+    <h1>Jisen Ren</h1>
+</header>
+<nav class="menu">
+    <a href="index.html">About Me</a>
+    <a href="gallery.html">Image Gallery</a>
+    <a href="feedback.html">Feedback</a>
+</nav>
+<main>
+    <section>
+        <h2>Share your Feedback</h2>
+        <form>
+            <p>Please give a rating to our website. </p>
+            <input id="p1" type="radio" name="score" value="1">
+            <label for="p1">1 point (worst).</label> <br>
+            <input id="p2" type="radio" name="score" value="2">
+            <label for="p2">2 points.</label> <br>
+            <input id="p3" type="radio" name="score" value="3">
+            <label for="p3">3 points.</label> <br>
+            <input id="p4" type="radio" name="score" value="4">
+            <label for="p4">4 points.</label> <br>
+            <input id="p5" type="radio" name="score" value="5">
+            <label for="p5">5 points (best).</label> <br>
+            <p>Do you have any other feedback?</p>
+            <div id="review-div"><textarea id="review-txt"></textarea></div>
+            <label for="review-txt"></label>
+            <input class="submit-btn" type="submit" value="Submit!" onclick="submit_review()">
+        </form>
+        <p id="feedback-result"></p>
+    </section>
+    <footer>
+        This page was created by Jisen Ren &amp; Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>.
+    </footer>
+</main>
+</body>
+</html>

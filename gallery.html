@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jisen Ren</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/gallery.js"></script>
+</head>
+<body>
+<header>
+    <h1>Jisen Ren</h1>
+</header>
+<nav class="menu">
+    <a href="index.html">About Me</a>
+    <a href="gallery.html">Image Gallery</a>
+    <a href="feedback.html">Feedback</a>
+</nav>
+<main>
+    <section>
+        <h2>An Image Gallery</h2>
+        <p>This is a sample image gallery created using JavaScript. You can click the &quot;previous&quot; and &quot;next&quot; buttons to switch between pictures.</p>
+        <div id="picture">
+            <img src="img/Blue%20hills.jpg" alt="Blue hills">
+        </div>
+        <div id="thumbs">
+            <span id="pic0"></span>
+            <span id="pic1"></span>
+            <span id="pic2"></span>
+            <span id="pic3"></span>
+        </div>
+        <div id="buttons">
+            <button id="prev-btn" onclick="previous()">&lt;- Previous</button>
+            <button id="next-btn" onclick="next()">Next -&gt;</button>
+        </div>
+    </section>
+    <footer>
+        This page was created by Jisen Ren &amp; Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>.
+    </footer>
+</main>
+</body>
+</html>
